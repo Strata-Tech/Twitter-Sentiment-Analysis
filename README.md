@@ -1,10 +1,23 @@
 # Twitter-Sentiment-Analysis
 
 # Background
-Twitter is a platform where people express their feelings towards the current context. As humans, we can guess the sentiment of a sentence whether it is positive or negative. In this project I have used “Tweepy,” which is an easy-to-use Python library for accessing the Twitter API. A Twitter developer account and sample codes to do this analysis
+Twitter is a platform where people express their feelings towards the current context. As humans, we can guess the sentiment of a sentence whether it is positive or negative.  
 
-Sentiment of tweets are analyzed as positive, negative and neutral. Tweepy is used to collect tweets which requires twitter development account. Tweets are cleaned as they contain RT,url @username etc. Also stopwords, punctuation are removed as part of data cleaning. 
 
-# Libraries required
-Tweepy
+# Problem statement
+There are numerous forms of social media out there, and there is so much information on the web. It is a case of too much information but too little time to take in the information. In this example, we are utilizing A.I to assist us in deciphering the information and general sentiment of a certain topic
+
+
+# Libraries used
+<pre>
+tweepy
 textblob
+re
+</pre>
+
+# Methodology
+In this project I have used “Tweepy,” which is an easy-to-use Python library for accessing the Twitter API. A Twitter developer account and access codes to do this analysis. The API will call the real time tweets of the subject we wish to further understand. I have used object oriented programming to create a class for the Twitterclient and to segregate the various task(i.e cleansing , and getting sentiment score) into functions
+
+Sentiment of tweets are analyzed as positive, negative and neutral. Tweepy is used to collect tweets which requires twitter development account. Tweets are cleaned as they contain RT,url @username etc. Also stopwords, punctuation are removed as part of data cleaning.
+
+Once the data have been cleansed, i performed natural language processing and sentiment analysis to get the positive and negative score of a the tweets to know the general sentiment of a tweet.
