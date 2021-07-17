@@ -23,3 +23,7 @@ In this project I have used “Tweepy,” which is an easy-to-use Python library
 Sentiment of tweets are analyzed as positive, negative and neutral. Tweepy is used to collect tweets which requires twitter development account. Tweets are cleaned as they contain RT,url @username etc. Also stopwords, punctuation are removed as part of data cleaning.
 
 Once the data have been cleansed, i performed natural language processing and sentiment analysis to get the positive and negative score of a the tweets to know the general sentiment of a tweet.
+
+# Sample of how output looks like:
+The result will be a percent of the sentiment score. i.e (The percentage of positive sentiment on crypto is 38.15789473684211,
+The percentage of negative sentiment crypto is 6.578947368421052)
