@@ -1,5 +1,7 @@
 # Twitter-Sentiment-Analysis
 
+![joshua-hoehne-Lh_sFxD8AkI-unsplash](https://user-images.githubusercontent.com/77420780/126051543-c027459a-55af-4dc1-8582-bbd8717203ba.jpg)
+
 # Background
 Twitter is a platform where people express their feelings towards the current context. As humans, we can guess the sentiment of a sentence whether it is positive or negative.  
 
