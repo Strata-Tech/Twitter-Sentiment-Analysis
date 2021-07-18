@@ -10,12 +10,11 @@ Twitter is a platform where people express their feelings towards the current co
 There are numerous forms of social media out there, and there is so much information on the web. It is a case of too much information but too little time to take in the information. In this example, we are utilizing A.I to assist us in deciphering the information and general sentiment of a certain topic
 
 
-# Libraries used
-<pre>
-tweepy
-textblob
-re
-</pre>
+# Technologies Used
+* Tweepy
+* textblob
+* re(for regular expressions)
+
 
 # Methodology
 In this project I have used “Tweepy,” which is an easy-to-use Python library for accessing the Twitter API. A Twitter developer account and access codes to do this analysis. The API will call the real time tweets of the subject we wish to further understand. I have used object oriented programming to create a class for the Twitterclient and to segregate the various task(i.e cleansing , and getting sentiment score) into functions
