@@ -24,5 +24,8 @@ Sentiment of tweets are analyzed as positive, negative and neutral. Tweepy is us
 Once the data have been cleansed, i performed natural language processing and sentiment analysis to get the positive and negative score of a the tweets to know the general sentiment of a tweet.
 
 ## Sample of how output looks like:
-The result will be a percent of the sentiment score. i.e (The percentage of positive sentiment on crypto is 38.15789473684211,
-The percentage of negative sentiment crypto is 6.578947368421052)
+The result will be a percent of the sentiment score. i.e (The percentage of positive sentiment on Tesla is 41.53846153846154%,
+The percentage of negative sentiment Tesla is 6.153846153846154%
+
+![Figure_1](https://user-images.githubusercontent.com/77420780/126096882-2e0013a5-cf85-4c0d-80ae-403bbd430894.png)
+
